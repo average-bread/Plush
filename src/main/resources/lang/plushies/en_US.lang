@@ -67,8 +67,8 @@ tile.plushies.playerstevePlushie.name=Player Steve Plushie
 tile.plushies.playerstevePlushie.desc=OMG It's Steve Minecraft
 tile.plushies.playerblankPlushie.name=Player Blank Plushie
 tile.plushies.playerblankPlushie.desc=You either cheating or pretty good at exploiting the game
-tile.plushies.playerblankPlushie.name=Player Useless Plushie
-tile.plushies.playerblankPlushie.desc=Without him this mod wouldn't be possible in more than one way
+tile.plushies.playeruselessPlushie.name=Player Useless Plushie
+tile.plushies.playeruselessPlushie.desc=Without him this mod wouldn't be possible in more than one way
 
 tile.plushies.zombiegiantPlushie.name=Zombie Giant Plushie
 tile.plushies.zombiegiantPlushie.desc=Plush toy in a shape of a zombie giant
