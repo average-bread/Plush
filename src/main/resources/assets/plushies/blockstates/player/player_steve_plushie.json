@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "plushies:block/player/player_steve_plushie",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "plushies:block/player/player_steve_plushie",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "plushies:block/player/player_steve_plushie"
+    },
+    "facing=west": {
+      "model": "plushies:block/player/player_steve_plushie",
+      "y": 90
+    }
+  }
+}
+

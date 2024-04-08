@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "plushies:block/snowman_plushie",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "plushies:block/snowman_plushie",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "plushies:block/snowman_plushie"
+    },
+    "facing=west": {
+      "model": "plushies:block/snowman_plushie",
+      "y": 90
+    }
+  }
+}
+
