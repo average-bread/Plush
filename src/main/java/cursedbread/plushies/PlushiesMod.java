@@ -72,6 +72,7 @@ public class PlushiesMod implements ModInitializer, GameStartEntrypoint {
 	public static Block armoredzombiePlushie;
 	public static Block playerstevePlushie;
 	public static Block playerblankPlushie;
+	public static Block playeruselessPlushie;
 	public static Block zombiegiantPlushie;
 	@Override
 	public void onInitialize() {
@@ -196,6 +197,9 @@ public class PlushiesMod implements ModInitializer, GameStartEntrypoint {
 		playerblankPlushie = plushies
 			.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/player/player_blank_plushie.json"), ModelHelper.getOrCreateBlockState(MOD_ID, "player/player_blank_plushie.json"), new SpinMeRighRound(), true))
 			.build(new Plushie("playerblankPlushie", blockId++, Material.cloth));
+		playeruselessPlushie = plushies
+			.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/player/player_useless_plushie.json"), ModelHelper.getOrCreateBlockState(MOD_ID, "player/player_useless_plushie.json"), new SpinMeRighRound(), true))
+			.build(new Plushie("playeruselessPlushie", blockId++, Material.cloth));
 		// 18.Giant Zombie
 		zombiegiantPlushie = plushies
 			.setBlockModel(new BlockModelDragonFly(ModelHelper.getOrCreateBlockModel(MOD_ID, "block/zombie_giant_plushie.json"), ModelHelper.getOrCreateBlockState(MOD_ID, "zombie_giant_plushie.json"), new SpinMeRighRound(), true))
