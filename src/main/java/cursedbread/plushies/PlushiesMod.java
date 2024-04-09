@@ -15,6 +15,9 @@ import turniplabs.halplibe.util.GameStartEntrypoint;
 import useless.dragonfly.helper.ModelHelper;
 import useless.dragonfly.model.block.BlockModelDragonFly;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 
@@ -27,7 +30,26 @@ public class PlushiesMod implements ModInitializer, GameStartEntrypoint {
 		.setHardness(0.5f);
 
 	public static int blockId;
-	int textures;
+	public static ArrayList colors = new ArrayList<String>();
+
+	static {
+		colors.add(0, "black");
+		colors.add(1, "red");
+		colors.add(2, "green");
+		colors.add(3, "brown");
+		colors.add(4, "blue");
+		colors.add(5, "purple");
+		colors.add(6, "cyan");
+		colors.add(7, "light_gray");
+		colors.add(8, "gray");
+		colors.add(9, "pink");
+		colors.add(10, "lime");
+		colors.add(11, "yellow");
+		colors.add(12, "light_blue");
+		colors.add(13, "magenta");
+		colors.add(14, "orange");
+		colors.add(15, "white");
+	}
 
 	static {
 		Properties prop = new Properties();
