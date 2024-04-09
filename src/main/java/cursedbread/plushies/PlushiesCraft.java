@@ -15,11 +15,25 @@ public class PlushiesCraft implements RecipeEntrypoint {
 	public static final String MOD_ID = "examplemod";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	int colors;
-
 	@Override
 	public void initNamespaces() {
-
+		Registries.ITEM_GROUPS.register("plushies:sheep", Registries.stackListOf(
+			PlushiesMod.sheep0Plushie,
+			PlushiesMod.sheep1Plushie,
+			PlushiesMod.sheep2Plushie,
+			PlushiesMod.sheep3Plushie,
+			PlushiesMod.sheep4Plushie,
+			PlushiesMod.sheep5Plushie,
+			PlushiesMod.sheep6Plushie,
+			PlushiesMod.sheep7Plushie,
+			PlushiesMod.sheep8Plushie,
+			PlushiesMod.sheep9Plushie,
+			PlushiesMod.sheep10Plushie,
+			PlushiesMod.sheep11Plushie,
+			PlushiesMod.sheep12Plushie,
+			PlushiesMod.sheep13Plushie,
+			PlushiesMod.sheep14Plushie,
+			PlushiesMod.sheep15Plushie));
 	}
 	@Override
 	public void onRecipesReady() {
